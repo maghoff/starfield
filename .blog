@@ -1,0 +1,6 @@
+[filesystem]
+path = blog/
+
+[blogger]
+blog_id = 5891328806917794677
+
