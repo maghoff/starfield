@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Starfield simulation 1: JavaScript</title>
-</head>
-<body>
-<h1>Starfield simulation 1: JavaScript</h1>
+Classic starfield
+=================
 
-<canvas id="canvas" width="500" height="200"></canvas>
+Simple perspective projection.
+
+<canvas id="canvas-v2" width="500" height="200"></canvas>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
 <script type="application/javascript">
@@ -78,7 +75,7 @@ $(function () {
         };
     };
 
-    var ctx = $("#canvas")[0].getContext("2d");
+    var ctx = $("#canvas-v2")[0].getContext("2d");
 
     var starfield = Starfield();
 
@@ -88,5 +85,3 @@ $(function () {
     }, 10);
 });
 </script>
-</body>
-</html>
